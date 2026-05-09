@@ -18,12 +18,12 @@ export function Button({
   onClick,
   className = ''
 }: ButtonProps) {
-  const baseClasses = 'inline-flex items-center justify-center font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2';
+  const baseClasses = 'inline-flex items-center justify-center font-medium rounded-xl transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2';
 
   const variantClasses = {
     primary: 'bg-indigo-600 text-white hover:bg-indigo-700 focus:ring-indigo-500',
-    secondary: 'bg-slate-100 text-slate-900 hover:bg-slate-200 focus:ring-slate-500 dark:bg-slate-800 dark:text-white dark:hover:bg-slate-700',
-    outline: 'border border-slate-300 text-slate-700 hover:bg-slate-50 focus:ring-indigo-500 dark:border-slate-600 dark:text-slate-300 dark:hover:bg-slate-800'
+    secondary: 'bg-slate-100 text-slate-900 hover:bg-slate-200 focus:ring-slate-500',
+    outline: 'border border-slate-300 text-slate-700 hover:bg-slate-50 focus:ring-indigo-500'
   };
 
   const sizeClasses = {
@@ -33,13 +33,15 @@ export function Button({
   };
 
   const classes = `${baseClasses} ${variantClasses[variant]} ${sizeClasses[size]} ${className}`;
+  const openInNewTab = href ? href.startsWith('http') : false;
+  const rel = openInNewTab ? 'noopener noreferrer' : undefined;
 
   if (href) {
     return (
       <motion.a
         href={href}
-        target="_blank"
-        rel="noopener noreferrer"
+        target={openInNewTab ? '_blank' : undefined}
+        rel={rel}
         className={classes}
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
@@ -51,6 +53,7 @@ export function Button({
 
   return (
     <motion.button
+      type="button"
       onClick={onClick}
       className={classes}
       whileHover={{ scale: 1.05 }}

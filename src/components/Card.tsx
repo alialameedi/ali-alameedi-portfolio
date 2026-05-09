@@ -9,7 +9,7 @@ interface CardProps {
 }
 
 export function Card({ children, className = '', onClick, hover = true }: CardProps) {
-  const baseClasses = 'bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg p-6 shadow-sm';
+  const baseClasses = 'bg-white border border-slate-200 rounded-[28px] p-6 shadow-sm';
   const hoverClasses = hover ? 'hover:shadow-lg hover:-translate-y-1 transition-all duration-200' : '';
 
   if (onClick) {
