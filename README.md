@@ -38,20 +38,28 @@ npm start
 
 ## Deploy to Cloudflare Workers
 
-This project is configured for OpenNext Cloudflare deployment with `@opennextjs/cloudflare`.
+This project is configured for OpenNext Cloudflare deployment with `@opennextjs/cloudflare` using the simplest possible setup.
 
-Install dependencies and use the deploy script:
+Follow these cleanup and deployment steps:
+
+1. Ignore generated Cloudflare/OpenNext files and directories: `/.open-next/`, `/.next/`, `/dist/`, `/build/`, `/.wrangler/`, `node_modules/`.
+2. Keep `wrangler.toml` minimal with only `name` and `compatibility_date`.
+3. Keep `open-next.config.ts` minimal or remove it entirely; if present, it should only export `defineCloudflareConfig({})`.
+4. Build the app locally with:
 
 ```bash
-npm install
+npm run build
+```
+
+5. Deploy using the OpenNext Cloudflare CLI:
+
+```bash
 npm run deploy
 ```
 
-To preview a Cloudflare build locally:
+6. Do not add custom worker entrypoints, R2 caching, durable objects, `build.upload`, or service-worker mode configuration.
 
-```bash
-npm run preview
-```
+This repo should contain only the Next.js source, `package.json`, `next.config.ts`, `wrangler.toml`, and optionally a minimal OpenNext config.
 
 ## Contact
 
