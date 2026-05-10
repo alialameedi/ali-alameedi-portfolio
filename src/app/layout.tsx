@@ -14,34 +14,34 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Ali Alameedi — AI & HPC Software Engineer',
-  description: 'Software Engineer | Java, Cloud, AI, Platform Engineering',
-  keywords: ['Ali Alameedi', 'HPC', 'distributed systems', 'AI engineering', 'platform engineering', 'cloud infrastructure'],
+  title: 'Ali Alameedi | Software Engineer Portfolio',
+  description: 'Software Engineer specializing in Java, cloud platforms, distributed systems, and AI-driven development. I design and build scalable backend systems, developer tools, and enterprise platforms that improve reliability, performance, and developer productivity.',
+  keywords: ['Ali Alameedi', 'HPC', 'distributed systems', 'AI engineering', 'platform engineering', 'cloud infrastructure', 'Java', 'Spring Boot', 'React', 'TypeScript'],
   authors: [{ name: 'Ali Alameedi' }],
   metadataBase: new URL('https://ali-alameedi-portfolio.pages.dev'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Ali Alameedi Portfolio',
-    description: 'Software Engineer | Java, Cloud, AI, Platform Engineering',
+    title: 'Ali Alameedi | Software Engineer',
+    description: 'Software Engineer specializing in Java, cloud platforms, distributed systems, and AI-driven development. I design and build scalable backend systems, developer tools, and enterprise platforms that improve reliability, performance, and developer productivity.',
     url: 'https://ali-alameedi-portfolio.pages.dev/',
     siteName: 'Ali Alameedi Portfolio',
     type: 'website',
     images: [
       {
-        url: 'https://ali-alameedi-portfolio.pages.dev/preview.png',
+        url: 'https://ali-alameedi-portfolio.pages.dev/og-preview.png',
         width: 1200,
         height: 630,
-        alt: 'Ali Alameedi - AI & HPC Software Engineer',
+        alt: 'Ali Alameedi Portfolio Preview',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ali Alameedi Portfolio',
-    description: 'Software Engineer | Java, Cloud, AI, Platform Engineering',
-    images: ['https://ali-alameedi-portfolio.pages.dev/preview.png'],
+    title: 'Ali Alameedi | Software Engineer',
+    description: 'Software Engineer specializing in Java, cloud platforms, distributed systems, and AI-driven development. I design and build scalable backend systems, developer tools, and enterprise platforms that improve reliability, performance, and developer productivity.',
+    images: ['https://ali-alameedi-portfolio.pages.dev/og-preview.png'],
   },
 };
 
