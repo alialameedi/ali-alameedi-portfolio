@@ -15,13 +15,33 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'Ali Alameedi — AI & HPC Software Engineer',
-  description: 'Ali Alameedi portfolio: AI-augmented engineering platforms, distributed systems, and HPC infrastructure.',
+  description: 'Software Engineer | Java, Cloud, AI, Platform Engineering',
   keywords: ['Ali Alameedi', 'HPC', 'distributed systems', 'AI engineering', 'platform engineering', 'cloud infrastructure'],
   authors: [{ name: 'Ali Alameedi' }],
+  metadataBase: new URL('https://ali-alameedi-portfolio.pages.dev'),
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
-    title: 'Ali Alameedi — AI & HPC Software Engineer',
-    description: 'Ali Alameedi portfolio: AI-augmented engineering platforms, distributed systems, and HPC infrastructure.',
+    title: 'Ali Alameedi Portfolio',
+    description: 'Software Engineer | Java, Cloud, AI, Platform Engineering',
+    url: 'https://ali-alameedi-portfolio.pages.dev/',
+    siteName: 'Ali Alameedi Portfolio',
     type: 'website',
+    images: [
+      {
+        url: 'https://ali-alameedi-portfolio.pages.dev/preview.png',
+        width: 1200,
+        height: 630,
+        alt: 'Ali Alameedi - AI & HPC Software Engineer',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ali Alameedi Portfolio',
+    description: 'Software Engineer | Java, Cloud, AI, Platform Engineering',
+    images: ['https://ali-alameedi-portfolio.pages.dev/preview.png'],
   },
 };
 
