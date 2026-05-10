@@ -1,6 +1,6 @@
 # Ali Alameedi Portfolio
 
-A clean, modern portfolio website for Ali Alameedi, highlighting expertise in HPC, AI-augmented engineering, distributed systems, and platform engineering.
+A source-of-truth portfolio website for Ali Alameedi, designed to reinforce a unified engineering identity across SEO, GitHub, LinkedIn, and recruiter-facing channels. The portfolio emphasizes Java, Spring Boot, cloud platforms (Azure/AWS), distributed systems, backend architecture, platform engineering, AI tooling, prompt engineering, and multi-agent synchronization.
 
 ## What’s included
 

@@ -24,7 +24,7 @@ export function About() {
         <div className="grid gap-8 lg:grid-cols-[1.2fr_0.9fr] items-center">
           <div className="space-y-6 text-slate-700">
             <p className="text-lg leading-8">
-              I design and operate large-scale compute platforms for engineering teams that need reliability, speed, and simplicity.
+              I design and operate large-scale compute platforms for engineering teams that need reliability, speed, and simplicity. My work blends Java backend systems, Spring Boot microservices, cloud infrastructure, platform engineering, AI toolchain integration, prompt engineering, and multi-agent workflows into enterprise-grade solutions.
             </p>
             <div className="grid gap-4 sm:grid-cols-2">
               <motion.div
@@ -105,11 +105,23 @@ export function About() {
                   </span>
                   <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-blue-100 to-emerald-100 px-3 py-1 text-xs font-medium text-blue-800 border border-blue-200">
                     <Zap className="h-3 w-3" />
-                    Cloud Infrastructure
+                    Cloud Architecture
                   </span>
-                  <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-green-100 to-teal-100 px-3 py-1 text-xs font-medium text-green-800 border border-green-200">
+                  <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-slate-100 to-emerald-100 px-3 py-1 text-xs font-medium text-slate-800 border border-slate-200">
+                    <Code className="h-3 w-3" />
+                    Java & Spring Boot
+                  </span>
+                  <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-indigo-100 to-blue-100 px-3 py-1 text-xs font-medium text-indigo-800 border border-indigo-200">
+                    <Server className="h-3 w-3" />
+                    Backend & Platform Engineering
+                  </span>
+                  <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-emerald-100 to-teal-100 px-3 py-1 text-xs font-medium text-green-800 border border-emerald-200">
                     <Brain className="h-3 w-3" />
-                    AI Engineering
+                    API Design & Microservices
+                  </span>
+                  <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-purple-100 to-fuchsia-100 px-3 py-1 text-xs font-medium text-purple-800 border border-purple-200">
+                    <Brain className="h-3 w-3" />
+                    AI Tooling & Prompt Engineering
                   </span>
                 </div>
               </div>

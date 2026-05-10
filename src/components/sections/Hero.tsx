@@ -32,12 +32,12 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <p className="text-sm uppercase tracking-[0.3em] text-emerald-700 mb-4">AI, HPC, and platform engineering</p>
+            <p className="text-sm uppercase tracking-[0.3em] text-emerald-700 mb-4">Java, Cloud, Distributed Systems, AI Tooling, and Platform Engineering</p>
             <h1 className="text-5xl md:text-6xl font-semibold text-slate-950 leading-tight mb-6">
               Ali Alameedi
             </h1>
             <p className="max-w-2xl text-lg text-slate-600 mb-8">
-              Building scalable HPC platforms with developer tools and automation.
+              Software Engineer building scalable backend systems, distributed services, cloud-native platform architecture, and AI-enabled developer workflows.
             </p>
 
             <div className="grid gap-4 sm:grid-cols-3 mb-10">
@@ -126,9 +126,9 @@ export function Hero() {
             </div>
             <div className="mt-6 text-slate-700">
               <p className="text-sm uppercase tracking-[0.24em] text-emerald-700 mb-2">Hello</p>
-              <h2 className="text-2xl font-semibold text-slate-950 mb-3">A welcoming, modern portfolio for engineering leadership.</h2>
+              <h2 className="text-2xl font-semibold text-slate-950 mb-3">A portfolio built around software engineering and scalable systems.</h2>
               <p className="text-base leading-7">
-                Focused on systems that scale, automation that reduces risk, and tools that make engineering teams more effective.
+                I deliver Java and Spring Boot services, cloud platform automation, distributed system reliability, and backend engineering at enterprise scale.
               </p>
             </div>
           </motion.div>
