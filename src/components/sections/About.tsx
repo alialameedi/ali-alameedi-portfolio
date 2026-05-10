@@ -6,7 +6,7 @@ import { Server, Brain, TrendingUp, Code, Database, Zap } from 'lucide-react';
 
 export function About() {
   return (
-    <section className="py-20 px-6 bg-gradient-to-br from-slate-50 to-indigo-50">
+    <section className="py-20 px-6 bg-gradient-to-br from-slate-50 to-emerald-50">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -15,7 +15,7 @@ export function About() {
           viewport={{ once: true }}
           className="text-center mb-14"
         >
-          <p className="text-sm uppercase tracking-[0.32em] text-indigo-600 mb-4">About me</p>
+          <p className="text-sm uppercase tracking-[0.32em] text-emerald-600 mb-4">About me</p>
           <h2 className="text-3xl md:text-4xl font-semibold text-slate-950">
             Practical engineering, thoughtful execution, meaningful outcomes.
           </h2>
@@ -35,7 +35,7 @@ export function About() {
                 className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm hover-lift hover-glow transition-all duration-300"
               >
                 <div className="flex items-center gap-3 mb-2">
-                  <Server className="h-6 w-6 text-indigo-600" />
+                  <Server className="h-6 w-6 text-emerald-600" />
                   <strong className="text-slate-950">HPC scale and reliability</strong>
                 </div>
                 <p className="text-slate-600">Infrastructure for thousands of compute nodes and mission-critical workflows.</p>
@@ -48,7 +48,7 @@ export function About() {
                 className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm hover-lift hover-glow transition-all duration-300"
               >
                 <div className="flex items-center gap-3 mb-2">
-                  <Brain className="h-6 w-6 text-indigo-600" />
+                  <Brain className="h-6 w-6 text-emerald-600" />
                   <strong className="text-slate-950">AI-enabled developer workflows</strong>
                 </div>
                 <p className="text-slate-600">Smart automation, clean APIs, and intuitive internal tools.</p>
@@ -61,7 +61,7 @@ export function About() {
                 className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm hover-lift hover-glow transition-all duration-300"
               >
                 <div className="flex items-center gap-3 mb-2">
-                  <TrendingUp className="h-6 w-6 text-indigo-600" />
+                  <TrendingUp className="h-6 w-6 text-emerald-600" />
                   <strong className="text-slate-950">Focused, measurable impact</strong>
                 </div>
                 <p className="text-slate-600">Reducing downtime, accelerating delivery, and improving operational clarity.</p>
@@ -74,7 +74,7 @@ export function About() {
                 className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm hover-lift hover-glow transition-all duration-300"
               >
                 <div className="flex items-center gap-3 mb-2">
-                  <Code className="h-6 w-6 text-indigo-600" />
+                  <Code className="h-6 w-6 text-emerald-600" />
                   <strong className="text-slate-950">Engineering excellence</strong>
                 </div>
                 <p className="text-slate-600">From architecture to deployment, building systems that scale and endure.</p>
@@ -88,10 +88,10 @@ export function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <Card className="border-slate-200 bg-gradient-to-br from-white via-indigo-50/50 to-purple-50/30 shadow-lg hover-lift hover-glow transition-all duration-300">
+            <Card className="border-slate-200 bg-gradient-to-br from-white via-emerald-50/50 to-green-50/30 shadow-lg hover-lift hover-glow transition-all duration-300">
               <div className="space-y-5">
                 <div>
-                  <p className="text-sm uppercase tracking-[0.28em] text-indigo-600 mb-2">What I bring</p>
+                  <p className="text-sm uppercase tracking-[0.28em] text-emerald-600 mb-2">What I bring</p>
                   <h3 className="text-2xl font-semibold text-slate-950">A calm, modern approach to complex systems.</h3>
                 </div>
                 <div className="space-y-3 text-slate-600">
@@ -99,15 +99,15 @@ export function About() {
                   <p>My work blends engineering rigor with a user-focused mindset for internal systems, developer tools, and enterprise platforms.</p>
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-indigo-100 to-purple-100 px-3 py-1 text-xs font-medium text-indigo-800 border border-indigo-200">
+                  <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-emerald-100 to-green-100 px-3 py-1 text-xs font-medium text-emerald-800 border border-emerald-200">
                     <Database className="h-3 w-3" />
                     Distributed Systems
                   </span>
-                  <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-blue-100 to-indigo-100 px-3 py-1 text-xs font-medium text-blue-800 border border-blue-200">
+                  <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-blue-100 to-emerald-100 px-3 py-1 text-xs font-medium text-blue-800 border border-blue-200">
                     <Zap className="h-3 w-3" />
                     Cloud Infrastructure
                   </span>
-                  <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-purple-100 to-pink-100 px-3 py-1 text-xs font-medium text-purple-800 border border-purple-200">
+                  <span className="inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-green-100 to-teal-100 px-3 py-1 text-xs font-medium text-green-800 border border-green-200">
                     <Brain className="h-3 w-3" />
                     AI Engineering
                   </span>

@@ -21,7 +21,7 @@ export function Accordion({ title, children, defaultOpen = false, icon }: Accord
         className="w-full flex items-center justify-between gap-4 p-4 text-left transition hover:bg-slate-50"
       >
         <div className="flex items-center gap-3">
-          {icon && <div className="text-indigo-600">{icon}</div>}
+          {icon && <div className="text-emerald-600">{icon}</div>}
           <span className="text-slate-950 font-medium">{title}</span>
         </div>
         <motion.div animate={{ rotate: isOpen ? 180 : 0 }} transition={{ duration: 0.2 }}>

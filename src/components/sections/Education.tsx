@@ -77,7 +77,7 @@ export function Education() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <p className="text-sm uppercase tracking-[0.28em] text-indigo-600 mb-3">Education</p>
+          <p className="text-sm uppercase tracking-[0.28em] text-emerald-600 mb-3">Education</p>
           <h2 className="text-3xl md:text-4xl font-semibold text-slate-950">Academic foundation for engineering and health systems.</h2>
           <p className="mt-4 text-slate-600 max-w-2xl mx-auto">
             Degrees that combine technical software engineering with systems thinking and global health awareness.
@@ -111,7 +111,7 @@ export function Education() {
                   <div className="grid gap-2 md:grid-cols-2">
                     {item.coursework.map((course) => (
                       <div key={course} className="flex items-start gap-3 text-slate-600">
-                        <span className="mt-1 h-2 w-2 rounded-full bg-indigo-600" />
+                        <span className="mt-1 h-2 w-2 rounded-full bg-emerald-600" />
                         <span>{course}</span>
                       </div>
                     ))}
@@ -122,7 +122,7 @@ export function Education() {
                   <div className="space-y-2 text-slate-600">
                     {item.activities.map((activity) => (
                       <div key={activity} className="flex items-start gap-3">
-                        <span className="mt-1 h-2 w-2 rounded-full bg-indigo-600" />
+                        <span className="mt-1 h-2 w-2 rounded-full bg-emerald-600" />
                         <span>{activity}</span>
                       </div>
                     ))}
@@ -133,7 +133,7 @@ export function Education() {
                   <div className="space-y-2 text-slate-600">
                     {item.awards.map((award) => (
                       <div key={award} className="flex items-center gap-3">
-                        <Award className="h-4 w-4 text-indigo-600" />
+                        <Award className="h-4 w-4 text-emerald-600" />
                         <span>{award}</span>
                       </div>
                     ))}

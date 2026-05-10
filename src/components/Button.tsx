@@ -21,9 +21,9 @@ export function Button({
   const baseClasses = 'inline-flex items-center justify-center font-medium rounded-xl transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2';
 
   const variantClasses = {
-    primary: 'bg-indigo-600 text-white hover:bg-indigo-700 focus:ring-indigo-500',
+    primary: 'bg-emerald-600 text-white hover:bg-emerald-700 focus:ring-emerald-500',
     secondary: 'bg-slate-100 text-slate-900 hover:bg-slate-200 focus:ring-slate-500',
-    outline: 'border border-slate-300 text-slate-700 hover:bg-slate-50 focus:ring-indigo-500'
+    outline: 'border border-slate-300 text-slate-700 hover:bg-slate-50 focus:ring-emerald-500'
   };
 
   const sizeClasses = {

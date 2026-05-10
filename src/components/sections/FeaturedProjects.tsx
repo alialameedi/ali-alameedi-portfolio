@@ -177,7 +177,7 @@ export function FeaturedProjects() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <p className="text-sm uppercase tracking-[0.28em] text-indigo-600 mb-3">Featured work</p>
+          <p className="text-sm uppercase tracking-[0.28em] text-emerald-600 mb-3">Featured work</p>
           <h2 className="text-3xl md:text-4xl font-semibold text-slate-950">Recent engineering work with measurable impact.</h2>
           <p className="mt-4 text-slate-600 max-w-2xl mx-auto">
             Select projects that showcase systems design, platform automation, and reliability engineering.
@@ -201,7 +201,7 @@ export function FeaturedProjects() {
                   </div>
                   <ExternalLink className="h-5 w-5 text-slate-400" />
                 </div>
-                <div className="flex items-center gap-2 text-indigo-600 font-medium mb-4">
+                <div className="flex items-center gap-2 text-emerald-600 font-medium mb-4">
                   <Zap className="h-4 w-4" />
                   <span>{project.impact}</span>
                 </div>
@@ -268,7 +268,7 @@ export function FeaturedProjects() {
                 <h3 className="text-lg font-semibold text-slate-950 mb-2">Technologies</h3>
                 <div className="flex flex-wrap gap-2">
                   {selectedProject.technologies.map((tech) => (
-                    <span key={tech} className="rounded-full bg-indigo-100 px-3 py-1 text-sm text-indigo-700">
+                    <span key={tech} className="rounded-full bg-emerald-100 px-3 py-1 text-sm text-emerald-700">
                       {tech}
                     </span>
                   ))}

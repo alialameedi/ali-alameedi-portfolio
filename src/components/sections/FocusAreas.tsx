@@ -68,7 +68,7 @@ export function FocusAreas() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <p className="text-sm uppercase tracking-[0.28em] text-indigo-600 mb-3">Focus areas</p>
+          <p className="text-sm uppercase tracking-[0.28em] text-emerald-600 mb-3">Focus areas</p>
           <h2 className="text-3xl md:text-4xl font-semibold text-slate-950">Where I spend my time and energy.</h2>
           <p className="mt-4 text-slate-600 max-w-2xl mx-auto">
             Technical expertise built around scalable systems, developer productivity, and infrastructure reliability.
@@ -91,7 +91,7 @@ export function FocusAreas() {
                 <Card onClick={() => toggleExpanded(area.id)} className="h-full cursor-pointer">
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center gap-3">
-                      <Icon className="h-8 w-8 text-indigo-600" />
+                      <Icon className="h-8 w-8 text-emerald-600" />
                       <h3 className="text-lg font-semibold text-slate-950">{area.title}</h3>
                     </div>
                     <div className={`transition-transform ${isExpanded ? 'rotate-180' : ''}`}>
@@ -108,7 +108,7 @@ export function FocusAreas() {
                         {area.technologies.map((tech) => (
                           <span
                             key={tech}
-                            className="rounded-full bg-indigo-100 px-3 py-1 text-sm font-medium text-indigo-700"
+                            className="rounded-full bg-emerald-100 px-3 py-1 text-sm font-medium text-emerald-700"
                           >
                             {tech}
                           </span>
