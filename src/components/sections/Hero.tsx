@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
@@ -117,13 +116,11 @@ export function Hero() {
             className="rounded-[32px] border border-slate-200 bg-white p-6 shadow-[0_30px_80px_rgba(15,23,42,0.08)]"
           >
             <div className="relative overflow-hidden rounded-[28px]">
-              <Image
+              <img
                 src="/images/ali-alameedi.jpeg"
                 alt="Ali Alameedi"
                 width={780}
                 height={780}
-                priority
-                sizes="(max-width: 768px) 100vw, 780px"
                 className="h-full w-full object-cover"
               />
             </div>

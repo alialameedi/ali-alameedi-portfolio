@@ -15,15 +15,15 @@
 
 # next.js
 /.next/
-/.open-next/
 /out/
+/.open-next/
+
+# dependencies
+/node_modules
 
 # production
 /build
 /dist/
-
-# Cloudflare / OpenNext
-/.wrangler/
 
 # misc
 .DS_Store
